@@ -8,7 +8,10 @@
                 <div class="panel-heading">Панель администрирования</div>
 
                 <div class="panel-body">
-					Вы зарегистрированы!
+					<div class="content">
+						<a class="btn btn-primary" href="{{ route('bot_create') }}">Зарегистрировать бота</a>
+						{{--<a class="btn btn-primary" href="{{ route('home') }}">Добавить турнир</a>--}}
+					</div>
                 </div>
             </div>
         </div>
